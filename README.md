@@ -19,9 +19,7 @@ against the Dashboard of the Rancher instance referenced in the `API` environmen
 
 ## Notes
 
-If the definitions in `dashboard` change run `./shell/scripts/typegen.sh` in the dashboard root to update the versions used by extensions. 
-
-This repository adds contains example code that illustrates custom provisioners which leverage the RKE2 flow. The `example` extension leverages the same Cloud Credential and Machine Config components as with Node Drivers but does not require a node driver AND allows the custom provisioner to control the actual provisioning step in a couple of ways.
+This repository contains example code that illustrates custom provisioners which leverage the RKE2 flow. The `example` extension leverages the same Cloud Credential and Machine Config components as with Node Drivers but does not require a node driver AND allows the custom provisioner to control the actual provisioning step in a couple of ways.
 
 Note that the changes to allow extensions to add cards to the provisioning screen will support using a `link` - allowing an extension to add a provider choice to the UI that when clicked, takes the user to a new route where the extension would need to take care of providing *all* UI and provisioning.
 
