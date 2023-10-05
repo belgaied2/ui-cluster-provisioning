@@ -37,7 +37,7 @@ Read through the home page and Introduction over at https://rancher.github.io/da
 1. Create a Rancher UI application within the repo - https://rancher.github.io/dashboard/extensions/extensions-getting-started#creating-the-skeleton-app
 1. Create a Rancher UI extension within your repo - https://rancher.github.io/dashboard/extensions/extensions-getting-started#creating-an-extension-as-a-top-level-product
 1. Run the Rancher UI and validate your extension exists - https://rancher.github.io/dashboard/extensions/extensions-getting-started#running-the-app
-1. Use the latest and greatest Rancher UI whilst developing the extension 
+1. Use the latest and greatest Rancher UI whilst developing the extension (This following is optional and only useful if you would like to be on the cutting edge of the Rancher UI or if you have some dysfunction)
     1. clone the `rancher/dashboard` repo
     1. checkout the `master` branch
     1. run `yarn link`
