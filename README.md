@@ -7,6 +7,12 @@ This is work in progress.
 
 ## To use
 
+First, you need to download `yarn` as a Javascript package manager. Then, run the following command to install all dependencies:
+
+```
+yarn install
+```
+
 Set the `API` environment variable to point to your Rancher backend and run with:
 
 ```
