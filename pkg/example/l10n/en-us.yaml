@@ -1,0 +1,13 @@
+cluster:
+  provider:
+    test: custom-mbelgaied
+provisioner:
+  description: This is a custom provisioner based on CAPI
+  tag: Momo
+exampleResourceDetailTab:
+  title: Example Provisioner - Cluster Detail Tab
+customClusterConfigTab:
+  tabLabel: Custom Provisioner
+  content: Custom content
+customMachineConfig:
+  title: Custom Provisioner - Machine Config

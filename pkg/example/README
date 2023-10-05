@@ -1,0 +1,12 @@
+# Example Provisioner 
+
+This is example of how an extension can exercise custom components and hooks in IClusterProvisioner.
+
+For more information see the Rancher UI DevKit.
+
+See `index.ts` as a starting point and `provisioner.ts` for the class that implements `IClusterProvisioner`.
+
+This example uses the `provision` method to do the provisioning - it just saves the cluster object but adds our `ui.rancher/provider` annotation first. This bypasses some of the generic handling of additional parts like addon configuration, member binding, etc.
+
+By adding the annotation, the cluster will be shown as type `Example` in the UI - this is determined by the localisation file `en-us` - we set `cluster.provider.test` to `Example`.
+
